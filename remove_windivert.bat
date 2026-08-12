@@ -20,4 +20,5 @@ if %errorLevel% == 0 (
     sc delete windivert
     
     echo Готово!
-    pause
+    echo Окно будет само закрыто через 5 сек
+    timeout /t 5
